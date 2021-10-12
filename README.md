@@ -1,2 +1,5 @@
 # my_cook
-« Cook, Serve, Delicious » game in a « World of Warcraft » world for my 1st year at Epitech
+Creating a game like "Cook, Serve, Delicious"
+
+We were 2 on this project : 
+LAM YEE MAN Nick & MALARDE Arthur
