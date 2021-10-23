@@ -87,13 +87,20 @@ Before starting playing you can check the tutorial and all the recipes in the ga
 
 ### HOW TO PLAY ?
 <br/>
-| <img src="assets/info/htp1.png" alt="htp1"> | <img src="assets/info/htp2.png" alt="htp2"> | <img src="assets/info/htp3.png" alt="htp3"> | <img src="assets/info/htp4.png" alt="htp4"> | <img src="assets/info/htp5.png" alt="htp5"> |
-
+<p float="left">
+    <img src="assets/info/htp1.png" alt="htp1" width="100">
+    <img src="assets/info/htp2.png" alt="htp2" width="100">
+    <img src="assets/info/htp3.png" alt="htp3" width="100">
+    <img src="assets/info/htp4.png" alt="htp4" width="100">
+    <img src="assets/info/htp5.png" alt="htp5" width="100">
+</p>
 
 ### RECIPES
 <br/>
-| <img src="assets/info/recipe1.png" alt="recipe1"> | <img src="assets/info/recipe2.png" alt="recipe2"> |
-
+<p float="left">
+    <img src="assets/info/recipe1.png" alt="recipe1" width="100">
+    <img src="assets/info/recipe2.png" alt="recipe2" width="100">
+</p>
 
 ### IN GAME
 
