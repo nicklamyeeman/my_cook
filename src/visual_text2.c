@@ -95,7 +95,7 @@ void	check_forvisual(cook_t *c)
 		visualstate_pause(c);
 	if (c->loob == 2 && c->check == 1)
 		visualstate_practice(c);
-	if (c->loob == 2 && c->check == 4 || c->check == 2)
+	if (c->loob == 2 && (c->check == 4 || c->check == 2))
 		visualstate_pause(c);
 	if ((c->loob == 3) || (c->loob == 2 && c->check == 5))
 		visualstate_options(c);

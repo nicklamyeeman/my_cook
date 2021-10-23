@@ -280,6 +280,6 @@ void	tuto_page(cook_t *);
 void	font_tutorial(cook_t *);
 void	create_font(cook_t *);
 int	my_putstr(char *);
-void	starting_game(cook_t);
+void	starting_game();
 
 #endif /*MY_H_*/

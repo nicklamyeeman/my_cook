@@ -11,6 +11,7 @@
 #include <math.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <stdio.h>
 #include "my.h"
 
 void	my_cook(cook_t *cook)
@@ -29,8 +30,10 @@ void	my_cook(cook_t *cook)
 	}
 }
 
-void	starting_game(cook_t cook)
+void	starting_game()
 {
+	cook_t cook;
+
 	init_values(&cook);
 	cook.w = sfRenderWindow_create(cook.mode, "mycook", sfFullscreen, NULL);
 	sfRenderWindow_setKeyRepeatEnabled(cook.w, sfFalse);
@@ -57,18 +60,15 @@ int	check_arg(char *str, char *cmp)
 	return (1);
 }
 
-int	main(int ac, char **av, char **env)
+int	main(int ac, char **av)
 {
-	cook_t	cook;
 	void	*m = malloc(1);
 
-	if (check_env(env) == NULL)
-		return (84);
 	srand((unsigned long)m);
 	if (ac > 2)
 		return (84);
 	if (ac == 1)
-		starting_game(cook);
+		starting_game();
 	else if (ac == 2)
 		if (check_arg(av[1], "-h") == 1)
 			return (help_message());
