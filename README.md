@@ -98,8 +98,8 @@ Before starting playing you can check the tutorial and all the recipes in the ga
 ### RECIPES
 <br/>
 <p float="left">
-    <img src="assets/info/recipe1.png" alt="recipe1" width="45%">
-    <img src="assets/info/recipe2.png" alt="recipe2" width="45%">
+    <img src="assets/info/recipe1.png" alt="recipe1" width="49%">
+    <img src="assets/info/recipe2.png" alt="recipe2" width="49%">
 </p>
 
 ### IN GAME
