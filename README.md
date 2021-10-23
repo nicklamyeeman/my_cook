@@ -80,7 +80,7 @@ make
 ```sh
 ./my_cook
 ```
-<img src="assets/info/menu.png" alt="menu">
+![menu](https://github.com/nicklamyeeman/my_cook/blob/main/assets/info/menu2.gif)
 
 Before starting playing you can check the tutorial and all the recipes in the game
 <br/>
